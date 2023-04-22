@@ -78,7 +78,8 @@ int main()
 {
 	// printf("Hello World");
 	//	vector<int> s{ 1, 0, 1, 0, 1, 1, 1, 0, 1, 0 };
-	vector<int> s{ 0, 1, 0, 0, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0 }; //1+x+x^4 with seed=[0, 1, 0,0]
+	//vector<int> s{ 0, 1, 0, 0, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0 }; //1+x+x^4 with seed=[0, 1, 0,0]
+	vector<int> s{ 0, 1, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0 }; //#x^6 + x^5 + x^3 + x^2 + 1 with seed=myseq = [0,1,0,1,0,0]
 
 	BerlekampMassey(s);
 	return 0;
