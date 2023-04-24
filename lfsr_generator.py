@@ -1,5 +1,5 @@
 myseq = [0, 1, 0,0] #initial seed
-coeff = [0,0,0,1,1] # extra element at index 0. Take from c1; c0=0 is dummy to take coeff indices from c1; coeff = [0,0,0,1,1] represents (x^4 + x + 1)
+coeff = [0,0,0,1,1] # extra element at index 0. Take from c1; c0=0 is dummy to take coeff indices from c1; coeff = [0,0,0,1,1] represents (x^4 + x + 1) why?
 start=0
 lfsr_len = len(coeff)-1
 #print(myseq)
